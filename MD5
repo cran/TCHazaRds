@@ -1,12 +1,12 @@
-546926cf75701ba95d6d705a512720f0 *DESCRIPTION
+3e63707412725d7c1c5a20d99b4e83a9 *DESCRIPTION
 b5532339ff8c8eb283d8e5987b017bc9 *NAMESPACE
 e0a532ee82b8e6c0e3dbacb7acff6b33 *R/RcppExports.R
-83012b31c725c3950ef9554c8adb2b2a *R/WindHazaRds.R
+8d4cf0cd925943b2c5f892388f8a70e5 *R/WindHazaRds.R
 a226a79774d4a5c598e3fe77aa53a96f *README.md
 2b8a0ca40c5aad6271136bee9c4e1de4 *build/vignette.rds
 5b2e74a8d00057560e777b1f6d291cd2 *inst/doc/Introduction_to_TCHazaRds.R
 727db9b18ae0657d74fc6da16c832039 *inst/doc/Introduction_to_TCHazaRds.Rmd
-9e8eb062ab7077548c9e3c132c4cecff *inst/doc/Introduction_to_TCHazaRds.html
+938f66c2ad11d7109bc405e6cc6cdda1 *inst/doc/Introduction_to_TCHazaRds.html
 ae3b3df9970b49b6523e608759bc957d *inst/extdata/ANTHONY/ANTHONY.cpg
 8e2c823ba9d7a3708d2fbd90d58cf9d8 *inst/extdata/ANTHONY/ANTHONY.dbf
 770edf0b1e8912c4dfe2b5d3a79d8eba *inst/extdata/ANTHONY/ANTHONY.prj
@@ -91,6 +91,7 @@ da12b12acb4b70cc8716bb17ff418193 *man/Rdist.Rd
 212b725461d01265271941d547415cbb *man/TCHazaRdsWindProfile.Rd
 e827bdd1bd6716f0b6de3750bc8a6d0a *man/TCHazaRdsWindTimeSereies.Rd
 2230e3e4b93a3164e19e71c545d5719b *man/TCProfilePts.Rd
+513d8065e973c3840dd020159ca2a079 *man/TCpoints2lines.Rd
 91f6296bfa6d921752c4735749de5b40 *man/TCvectInterp.Rd
 40b8c300ad7d88b5e68329d6b2495345 *man/beta_modelsR.Rd
 f4be7d5c9e9b738c08477e6d6cc85841 *man/inlandWindDecay.Rd
@@ -101,7 +102,7 @@ e529052881b277b39c33a011e076d437 *man/predict_rmax.Rd
 e03ff329a8afb85e354d0d6230180213 *man/rMax_modelsR.Rd
 958891d4510e39d36210a4301fdd9aaa *man/returnBearing.Rd
 5b5433901bdf8713a94d76cdac3c1265 *man/tunedParams.Rd
-08f63b1c52909b5f3bdc5eae489ad4ae *man/update_Track.Rd
+6e415bb4c61e176bcabc9b67e21bdb08 *man/update_Track.Rd
 821e70b5e67f9903e847ee7771fd0e54 *man/vMax_modelsR.Rd
 41dd85a49757dd1c0d30c565ca858f3c *src/RcppExports.cpp
 20ff7dfc2578bc0dc8f8d3cfeb0a57a4 *src/TCHazaRds.cpp

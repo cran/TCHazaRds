@@ -1,7 +1,7 @@
 Package: TCHazaRds
 Type: Package
 Title: Tropical Cyclone (Hurricane, Typhoon) Spatial Hazard Modelling
-Version: 1.1.1
+Version: 1.1.2
 Authors@R: person("Julian", "O'Grady", role = c("aut", "cre"),email = "julian.ogrady@csiro.au",comment = c(ORCID = "http://orcid.org/0000-0003-3552-9193"))
 Date: 2024-09-04
 Maintainer: Julian O'Grady <julian.ogrady@csiro.au>
@@ -17,7 +17,7 @@ Suggests: testthat (>= 3.0.0), knitr, rmarkdown
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 NeedsCompilation: yes
-Packaged: 2024-09-05 23:00:29 UTC; ogr013
+Packaged: 2024-09-20 04:52:12 UTC; ogr013
 Author: Julian O'Grady [aut, cre] (<https://orcid.org/0000-0003-3552-9193>)
 Repository: CRAN
-Date/Publication: 2024-09-06 07:30:02 UTC
+Date/Publication: 2024-09-20 12:10:12 UTC
