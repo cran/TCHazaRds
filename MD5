@@ -1,12 +1,12 @@
-09e979dd1ac8c90512e12153afd0e2ac *DESCRIPTION
+7337e9ba42671786a19e78d893e3fb6e *DESCRIPTION
 b5532339ff8c8eb283d8e5987b017bc9 *NAMESPACE
-579be2ac39cc478b796a234eb4080dc5 *R/RcppExports.R
-10cfd265d8d91f37d909ba9cd84e2af0 *R/WindHazaRds.R
+365d9f35dd4792d452f88de2fb492898 *R/RcppExports.R
+018e48a942ba94a9ab2091cee9fe29d0 *R/WindHazaRds.R
 a5e9f001621a891a20b8843467a70e3e *README.md
 8a96acd37e31a09d031f130d14b524da *build/vignette.rds
 5b2e74a8d00057560e777b1f6d291cd2 *inst/doc/Introduction_to_TCHazaRds.R
 acc30114c17d0effb2903d5005589779 *inst/doc/Introduction_to_TCHazaRds.Rmd
-6306b03d89c03970a40c6c0e3550361a *inst/doc/Introduction_to_TCHazaRds.html
+7fd7a80bbc647adfca19c516cc8d4c56 *inst/doc/Introduction_to_TCHazaRds.html
 ae3b3df9970b49b6523e608759bc957d *inst/extdata/ANTHONY/ANTHONY.cpg
 8e2c823ba9d7a3708d2fbd90d58cf9d8 *inst/extdata/ANTHONY/ANTHONY.dbf
 770edf0b1e8912c4dfe2b5d3a79d8eba *inst/extdata/ANTHONY/ANTHONY.prj
@@ -77,7 +77,8 @@ b7b08d6abd0cc3d0a1e63771115dc58e *man/HollandWindProfilePi.Rd
 fe45f849201af00657fc15ed681787e4 *man/HubbertWindFieldPi.Rd
 c7ecf382d9083ed827665270c2349371 *man/JelesnianskiWindProfile.Rd
 22567143614bcb4e5888452cee6faa6c *man/JelesnianskiWindProfilePi.Rd
-94294519babe1d22bddf4bc9ba92d9ea *man/KepertWindField.Rd
+f1b5082674484e3e3f4b44cede347405 *man/KepertVerticalWindField.Rd
+738087ed4c228a8d9b5fef6acbf4656c *man/KepertWindField.Rd
 b8df60e22b289a9a23dae4c65866f48e *man/KepertWindFieldPi.Rd
 ef8ae7aece3ff3e47ab330d3ad362786 *man/McConochieWindField.Rd
 0e26501e2acc8e7b3cb01dd9598aad87 *man/McConochieWindFieldPi.Rd
@@ -86,8 +87,8 @@ ab8bda03dadccd9c92aff94013f9d8e5 *man/NewHollandWindProfilePi.Rd
 c2102b2b32565763c3ab3d1e94a7adf5 *man/RankineWindProfilePi.Rd
 b87505d32e3c5a0f3e0cb828e3cfbe40 *man/Rdist.Rd
 1ba5a29ba2198c831eb9921d4327a0cf *man/RdistPi.Rd
-ac016a975dd59d9ca2ad21ba35e8cae9 *man/TCHazaRdsWindField.Rd
-4613224f3cd6782123dcdee0a52523dc *man/TCHazaRdsWindFields.Rd
+590caf1e05d282ab1955a3b71388d2c6 *man/TCHazaRdsWindField.Rd
+e850d4dd907595e2c7306ef275131ddb *man/TCHazaRdsWindFields.Rd
 94375c59d32caba1df4c19716a5605ed *man/TCHazaRdsWindProfile.Rd
 53382586eb3f1e4024d5139b2bc3d92e *man/TCHazaRdsWindTimeSereies.Rd
 b8457bd7cf6b47058e03809f6a3ec086 *man/TCProfilePts.Rd
@@ -95,7 +96,7 @@ b8457bd7cf6b47058e03809f6a3ec086 *man/TCProfilePts.Rd
 0a5aa6bf141300a18d539bdd4be4bc3f *man/TCvectInterp.Rd
 0f551660bb7441236eb52f2d5b8b61b8 *man/beta_modelsR.Rd
 d9b789fc832dcadad6d46ce60c82158b *man/inlandWindDecay.Rd
-e4659ae17cf119e383343137367b36e3 *man/land_geometry.Rd
+43b328a801d0c509f605f0b349637a2c *man/land_geometry.Rd
 3464598c972147fcd35b79afa77fa164 *man/predict_rmax.Rd
 47251e86cf89b494237c5349b0016bca *man/rMax175ms_solver.Rd
 2e25bcf39699ebcd1b747f671ad4944e *man/rMax2_modelsR.Rd
@@ -104,6 +105,6 @@ cac4817fec5f09f83f9bc91fdaf03868 *man/rMax_modelsR.Rd
 ec5f40067b93f70a6ce9910fe7d00d85 *man/tunedParams.Rd
 223429c87e352d567ef968bbc8138d26 *man/update_Track.Rd
 a16cdcb85ee322508b32ac1e8dc2cf52 *man/vMax_modelsR.Rd
-41dd85a49757dd1c0d30c565ca858f3c *src/RcppExports.cpp
-86883281042e4cee33259e5b219b2c0f *src/TCHazaRds.cpp
+fb64d1f9b2e35f98792b3b63d5d8b737 *src/RcppExports.cpp
+543ca3b1c17fd479cfcf7f6ce4f098e9 *src/TCHazaRds.cpp
 acc30114c17d0effb2903d5005589779 *vignettes/Introduction_to_TCHazaRds.Rmd
