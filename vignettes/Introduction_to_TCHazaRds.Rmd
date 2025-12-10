@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-R's compatibility to easily use fast `Cpp` code ([Rcpp](https://github.com/RcppCore/Rcpp)) and spatial processing (e.g. [terra](https://github.com/rspatial/terra)) makes it an attractive open source environment to study [tropical cyclones](https://en.wikipedia.org/wiki/Tropical_cyclone), also known as TCs, hurricanes and typhoons. This package estimates TC vortex wind and pressure fields using parametric equations originally coded up in python by [TCRM](https://github.com/GeoscienceAustralia/tcrm) and in Cuda Cpp by [TCwindgen](https://github.com/CyprienBosserelle/TCwindgen).
+R's compatibility to easily use fast `Cpp` code ([Rcpp](https://github.com/RcppCore/Rcpp)) and spatial processing (e.g. [terra](https://github.com/rspatial/terra)) makes it an attractive open source environment to study tropical cyclones, also known as TCs, hurricanes and typhoons. This package estimates TC vortex wind and pressure fields using parametric equations originally coded up in python by [TCRM](https://github.com/GeoscienceAustralia/tcrm) and in Cuda Cpp by [TCwindgen](https://github.com/CyprienBosserelle/TCwindgen).
 
 TC wind fields can be computed using three model inputs of the: 1) [TC Track](#input1), 2) [Model Parameters](#input2) and 3) [Model Spatial Domain](#input3). The TCHazaRds package can be used with other visualization and spatial analysis packages to analyse the impacts of TCs.
 
@@ -119,7 +119,8 @@ if (.Platform$OS.type == "windows"){
 The hazard can be also calculated for the entire track too (by adding a `s` to the end of `TCHazaRdsWindField` to make it plural), and then the maximum wind speed at each grid cell can be plotted.
 
 ```{r, out.width = '80%',fig.height=4,fig.width=6, fig.align = "center"}
-HAZ = TCHazaRdsWindFields(GEO_land=GEO_land,TC=TC,paramsTable=paramsTable)
+TC = crop(TC,as.polygons(ext(GEO_land)))
+HAZ = TCHazaRdsWindFields(GEO_land=GEO_land,TC=TC,paramsTable=paramsTable,returnWaves = TRUE)
 sp::spplot(max(HAZ$Sw),at=ats,sp.layout = TC_sp)
 ```
 
